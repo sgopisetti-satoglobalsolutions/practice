@@ -20,7 +20,7 @@ public class JsonFileMapExample {
             Map<String, Object> map = mapper.readValue(
                     new File("user.json"),
                     new TypeReference<HashMap<String,Object>>() {});
-            
+
             System.out.println(map.get("name"));
             System.out.println(map.get("age"));
             System.out.println(map.get("messages"));
