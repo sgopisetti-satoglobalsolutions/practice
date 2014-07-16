@@ -25,6 +25,7 @@
   <modules>
     <module>json</module>
     <module>io</module>
+    <module>xml</module>
   </modules>
 
   <dependencies>
