@@ -33,7 +33,7 @@ public class ReadXMLFile {
 	    
 	    for (int i = 0; i < nList.getLength(); i++) {
 	    	Node node = nList.item(i);
-	    	System.out.format("Current element: %s\n", node.getNodeName());
+	    	System.out.format("\nCurrent element: %s\n", node.getNodeName());
 	    	if (node.getNodeType() == Node.ELEMENT_NODE){
 	    		Element element = (Element)node;
 	    		System.out.format("Staff id: %s\n", element.getAttribute("id"));
