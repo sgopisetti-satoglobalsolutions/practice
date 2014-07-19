@@ -11,6 +11,10 @@
     <name>spring</name>
     <description>java spring practice</description>
 
+    <properties>
+    	<spring.version>3.0.5.RELEASE</spring.version>
+    </properties>
+
     <modules>
     	<module>spring-core</module>
 	<module>spring-mvc</module>
