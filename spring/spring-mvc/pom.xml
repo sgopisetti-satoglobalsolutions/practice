@@ -12,12 +12,9 @@
     <description>java spring batch practice</description>
 
     <modules>
-        <module>sample1HelloWorld</module>
+			<module>sample1HelloWorld</module>
+			<module>form1</module>
     </modules>
-    
-    <build>
-    	<finalName>sample1HelloWorld</finalName>
-    </build>
 
     <dependencies>
       <dependency>
