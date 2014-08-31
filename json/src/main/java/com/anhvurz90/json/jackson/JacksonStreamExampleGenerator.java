@@ -1,12 +1,11 @@
-package com.anhvurz90.json;
+package com.anhvurz90.json.jackson;
 
 import java.io.File;
 import java.io.IOException;
+
 import org.codehaus.jackson.JsonEncoding;
 import org.codehaus.jackson.JsonFactory;
-import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonGenerator;
-import org.codehaus.jackson.map.JsonMappingException;
 
 public class JacksonStreamExampleGenerator {
   public static void main(String... args) {

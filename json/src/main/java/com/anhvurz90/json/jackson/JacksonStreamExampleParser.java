@@ -1,4 +1,4 @@
-package com.anhvurz90.json;
+package com.anhvurz90.json.jackson;
 
 import java.io.File;
 import java.io.IOException;

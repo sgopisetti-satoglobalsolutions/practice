@@ -1,4 +1,4 @@
-package com.anhvurz90.json;
+package com.anhvurz90.json.jackson;
 
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
