@@ -23,9 +23,10 @@
 
 
   <modules>
-    <module>json</module>
     <module>io</module>
     <module>xml</module>
+    <module>json</module>
+    <module>regex</module>
     <module>spring</module>
     <module>misc</module>
   </modules>
