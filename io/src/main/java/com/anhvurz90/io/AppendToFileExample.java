@@ -16,6 +16,7 @@ public class AppendToFileExample {
         file.createNewFile();
       }
       
+      //true = append file
       FileWriter fileWriter = new FileWriter(file.getName(), true);
       BufferedWriter bw = new BufferedWriter(fileWriter);
       bw.write(data);
