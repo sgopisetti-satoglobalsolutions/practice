@@ -12,8 +12,8 @@ public class UsernameValidator {
   /**
    * Description:
    * ^                  # Start of the line
-   *   [a-z0-9_-]       # Match characters and symbols in the list, a-z, 0-9, underscore, hyphen
-   *             {3,15} # Length at least 3 characters and maximum length of 15
+   *   [a-z0-9_-]       #   Match characters and symbols in the list, a-z, 0-9, underscore, hyphen
+   *             {3,15} #     Length at least 3 characters and maximum length of 15
    * $                  # End of the line 
    */
   

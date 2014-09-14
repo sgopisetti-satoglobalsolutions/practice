@@ -13,12 +13,12 @@ public class PasswordValidator {
   /**
    * Description:
    *  (                     # Start of group
-   *    (?=.*\d)            # must contains one digit from 0-9
-   *    (?=.*[a-z]          # must contains one lower case character
-   *    (?=.*[A-Z]          # must contains one upper case character
-   *    (?=.*[@#$%])        # must contains one special symbols in the list "@#$%"
-   *                .       # match anything with previous condition checking
-   *                 (6-20) # length at least 6 characters and maximum of 20
+   *    (?=.*\d)            #   must contains one digit from 0-9
+   *    (?=.*[a-z]          #   must contains one lower case character
+   *    (?=.*[A-Z]          #   must contains one upper case character
+   *    (?=.*[@#$%])        #   must contains one special symbols in the list "@#$%"
+   *                .       #     match anything with previous condition checking
+   *                 (6-20) #       length at least 6 characters and maximum of 20
  *  )                       # End of group
    */
   
