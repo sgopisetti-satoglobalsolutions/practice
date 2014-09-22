@@ -1,10 +1,10 @@
-package com.anhvurz90.practice.jdbc;
+package com.anhvurz90.practice.jdbc.connect;
 
 import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class JDBCExample {
+public class MySQLExample {
 
   public static void main(String[] args) {
     System.out.println("-----MySQL JDBC Connection Testing -----");
