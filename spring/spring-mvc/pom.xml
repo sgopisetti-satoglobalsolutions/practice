@@ -14,6 +14,7 @@
     <modules>
 			<module>sample1HelloWorld</module>
 			<module>form1</module>
+			<module>rest1</module>
     </modules>
 
     <dependencies>
