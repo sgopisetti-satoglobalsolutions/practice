@@ -1,0 +1,11 @@
+2015-04-19 22:14:29 DEBUG HelloExample:37 - This is debug: mkyong
+2015-04-19 22:14:29 INFO  HelloExample:40 - This is info: mkyong
+2015-04-19 22:14:29 WARN  HelloExample:43 - This is warn:mkyong
+2015-04-19 22:14:29 ERROR HelloExample:44 - This is error: mkyong
+2015-04-19 22:14:29 FATAL HelloExample:45 - This is fatal: mkyong
+2015-04-19 22:15:10 ERROR HelloExample:44 - This is error: mkyong
+2015-04-19 22:15:10 FATAL HelloExample:45 - This is fatal: mkyong
+2015-04-19 22:18:13 ERROR HelloExample2:36 - Sorry, something wrong!
+java.lang.ArithmeticException: / by zero
+	at com.anhvurz90.practice.misc.log4j.HelloExample2.divide(HelloExample2.java:41)
+	at com.anhvurz90.practice.misc.log4j.HelloExample2.main(HelloExample2.java:34)

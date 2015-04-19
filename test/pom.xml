@@ -6,14 +6,10 @@
         <groupId>com.anhvurz90</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>com.anhvurz90.practice.misc</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>com.anhvurz90.practice.test</artifactId>
+    <packaging>jar</packaging>
     <name>misc</name>
-    <description>java misc practice</description>
-
-    <modules>
-    	<module>log4j</module>
-    </modules>
+    <description>java test practice</description>
 
     <dependencies>
         <dependency>

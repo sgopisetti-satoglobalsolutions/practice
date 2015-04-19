@@ -31,6 +31,7 @@
     <module>misc</module>
     <module>jdbc</module>
     <module>jsf</module>
+    <module>test</module>    
   </modules>
 
   <dependencies>
