@@ -32,6 +32,7 @@
     <module>jdbc</module>
     <module>jsf</module>
     <module>test</module>    
+    <module>mockito</module>    
   </modules>
 
   <dependencies>
