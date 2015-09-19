@@ -33,6 +33,7 @@
     <module>jsf</module>
     <module>test</module>    
     <module>mockito</module>    
+    <module>java8</module>
   </modules>
 
   <dependencies>
