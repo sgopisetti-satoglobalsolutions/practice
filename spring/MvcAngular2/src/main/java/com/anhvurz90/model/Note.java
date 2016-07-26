@@ -1,5 +1,7 @@
 package com.anhvurz90.model;
 
+import java.util.Date;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -19,7 +21,9 @@ public class Note {
 	private long id;
 	
 	private String content;
-
+	
+	private Date date;
+	
 	public User getUser() {
 		return user;
 	}
@@ -42,6 +46,14 @@ public class Note {
 
 	public void setContent(String content) {
 		this.content = content;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
 	}
 	
 }

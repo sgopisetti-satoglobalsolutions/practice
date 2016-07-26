@@ -13,6 +13,7 @@
 		<div ng-repeat="note in notes" style="background-color: #EEE; padding: 5px; width: 300px; border: 1px">
 			<p>The ID is {{note.id}}</p>
 			<p>The content is {{note.content}}</p>
+			<p>The date is {{note.date|date:'dd-MM-yyyy'}}</p>
 		</div>		
 		Add note:<br/>
 		<textarea rows="10" cols="50" ng-model="content"></textarea>

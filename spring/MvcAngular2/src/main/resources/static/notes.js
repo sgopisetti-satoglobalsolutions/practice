@@ -18,6 +18,7 @@ module.factory('Note', function($resource) {
 	$scope.add = function() {
 		var note = new Note();
 		note.content = $scope.content;
+		note.date = new Date();
 		note.$save(url(), function() {
 			$scope.content = "";
 			update();
