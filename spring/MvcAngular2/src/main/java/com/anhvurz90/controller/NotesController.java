@@ -44,4 +44,9 @@ public class NotesController {
 	public void deleteNote(Long id) {
 		noteRepository.delete(id);
 	}
+	
+	@RequestMapping(path="/find", method = RequestMethod.GET)
+	public Collection<Note> findNotes(@PathVariable String username, String text) {
+		return noteRepository.findByUserUsernameAndContentContaining(username, text);
+	}
 }

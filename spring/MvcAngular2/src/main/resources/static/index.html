@@ -10,6 +10,10 @@
 		Your name:
 		<input ng-model="username">
 		<button ng-click="update()" ng-enter="update()">Update</button>
+		<br/>
+		Search:
+		<input ng-model="searchText">
+		<button ng-click="search()" ng-enter="search()">Search</button>
 		<div ng-repeat="note in notes" style="background-color: #EEE; padding: 5px; width: 300px; border: 1px">
 			<p>The ID is {{note.id}}</p>
 			<p>The content is {{note.content}}</p>

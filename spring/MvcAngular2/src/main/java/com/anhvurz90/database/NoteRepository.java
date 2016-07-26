@@ -8,4 +8,6 @@ import com.anhvurz90.model.Note;
 public interface NoteRepository extends JpaRepository<Note, Long> {
 
 	Collection<Note> findByUserUsername(String username);
+	
+	Collection<Note> findByUserUsernameAndContentContaining(String username, String content);
 }
