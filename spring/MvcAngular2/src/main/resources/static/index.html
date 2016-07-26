@@ -14,6 +14,7 @@
 			<p>The ID is {{note.id}}</p>
 			<p>The content is {{note.content}}</p>
 			<p>The date is {{note.date|date:'dd-MM-yyyy'}}</p>
+			<button ng-click="delete(note.id)">Delete note</button>
 		</div>		
 		Add note:<br/>
 		<textarea rows="10" cols="50" ng-model="content"></textarea>

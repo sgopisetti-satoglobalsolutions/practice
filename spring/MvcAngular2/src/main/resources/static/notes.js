@@ -25,5 +25,12 @@ module.factory('Note', function($resource) {
 		});
 	};
 	
+	$scope.delete = function(_id) {
+		var note = new Note();
+		note.$delete(angular.extend(url(), {id: _id}), function() {
+			update();
+		});
+	}
+	
 	update();
 });

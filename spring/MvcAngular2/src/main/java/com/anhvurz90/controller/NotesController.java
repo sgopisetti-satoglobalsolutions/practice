@@ -39,4 +39,9 @@ public class NotesController {
 		note.setUser(user);
 		noteRepository.save(note);
 	}
+	
+	@RequestMapping(method = RequestMethod.DELETE)
+	public void deleteNote(Long id) {
+		noteRepository.delete(id);
+	}
 }
